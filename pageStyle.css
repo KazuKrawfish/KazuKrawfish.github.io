@@ -1,15 +1,14 @@
-body {background-color: powderblue;}
+body {background-color: white;}
 /* The sidebar menu */
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 160px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  top: 130px; /* Stay at the top */
   left: 0;
- background-color: rgba(0, 150, 250, 0.4); /*  Black */
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
+  padding-top: 0px;
+  background-color: rgb(128, 172, 187);
 }
 
 /* The navigation menu links */
@@ -19,19 +18,32 @@ body {background-color: powderblue;}
   font-size: 25px;
   color: rgb(0, 0, 0);;
   display: block;
+  top: 300px;
 }
-
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
   color: rgb(0, 0, 240);
 }
 
-h1   {color: black; text-align: center}
-p    {color: black;  text-align: center}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
-opacity: 0.5;
+.main {
+  color: black ; 
+  top: 120px;
+  left : 200px;
+  position: fixed;
+  opacity: 1;
+}
+
+.titleImg { 
+      opacity: .9;
+      width: auto;  
+      max-height: 120px; 
+      }
+
+.footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      color: black;
+      text-align: center;
 }
