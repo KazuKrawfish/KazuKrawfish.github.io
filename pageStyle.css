@@ -1,4 +1,6 @@
-body {background-color: white;}
+body {
+  background-color: rgba(0, 0, 0, 0.780);
+}
 /* The sidebar menu */
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -8,7 +10,7 @@ body {background-color: white;}
   left: 0;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 0px;
-  background-color: rgb(128, 172, 187);
+  background-color: rgb(94, 149, 156);
 }
 
 /* The navigation menu links */
@@ -22,19 +24,20 @@ body {background-color: white;}
 }
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-  color: rgb(0, 0, 240);
+  color: rgb(83, 81, 173);
 }
 
 .main {
-  color: black ; 
+  color: white ; 
   top: 120px;
   left : 200px;
   position: fixed;
   opacity: 1;
+  font: times;
+  width: 1000px;
 }
 
 .titleImg { 
-      opacity: .9;
       width: auto;  
       max-height: 120px; 
       }
@@ -44,6 +47,23 @@ body {background-color: white;}
       left: 0;
       bottom: 0;
       width: 100%;
-      color: black;
+      color: white;
       text-align: center;
 }
+
+myLink {
+  color: rgb(0, 238, 255);
+}
+
+myLink:visited {
+  color: rgb(120, 151, 153);
+}
+
+myLink:hover {
+  color: rgb(120, 151, 153);
+}
+
+myLink:active {
+  color: rgb(120, 151, 153);
+}
+
