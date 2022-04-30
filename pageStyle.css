@@ -1,7 +1,8 @@
 body {
   background-color: rgba(0, 0, 0, 0.780);
 }
-/* The sidebar menu */
+
+/* Sidebar menu */
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 160px; /* Set the width of the sidebar */
@@ -13,7 +14,7 @@ body {
   background-color: rgb(94, 149, 156);
 }
 
-/* The navigation menu links */
+/* Navigation menu links */
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
@@ -36,6 +37,21 @@ body {
   font: times;
   width: 1000px;
 }
+.main a {
+  color: rgb(0, 238, 255);
+}
+
+.main a:visited {
+  color: rgb(120, 151, 153);
+}
+
+.main a:hover {
+  color: rgb(120, 151, 153);
+}
+
+.main a:active {
+  color: rgb(120, 151, 153);
+}
 
 .titleImg { 
       width: auto;  
@@ -51,19 +67,22 @@ body {
       text-align: center;
 }
 
-myLink {
+.footer a {
   color: rgb(0, 238, 255);
 }
 
-myLink:visited {
+.footer a:visited {
   color: rgb(120, 151, 153);
 }
 
-myLink:hover {
+.footer a:hover {
   color: rgb(120, 151, 153);
 }
 
-myLink:active {
+.footer a:active {
   color: rgb(120, 151, 153);
 }
+
+
+
 
