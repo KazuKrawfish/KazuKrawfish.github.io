@@ -1,20 +1,20 @@
 body {
   background-color: rgba(0, 0, 0, 0.780);
+  overflow: scroll;
 }
 
 /* Sidebar menu */
 .sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  top: 130px; /* Stay at the top */
+  height: 100%;
+  width: 160px; 
+  position: fixed; 
+  top: 130px;
   left: 0;
-  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-x: hidden;
   padding-top: 0px;
   background-color: rgb(94, 149, 156);
 }
 
-/* Navigation menu links */
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
@@ -23,7 +23,7 @@ body {
   display: block;
   top: 300px;
 }
-/* When you mouse over the navigation links, change their color */
+
 .sidenav a:hover {
   color: rgb(83, 81, 173);
 }
@@ -32,9 +32,10 @@ body {
   color: white ; 
   top: 120px;
   left : 200px;
-  position: fixed;
+  position: relative;
   opacity: 1;
   font: times;
+  z-index: 1;
   width: 1000px;
 }
 .main a {
@@ -55,11 +56,21 @@ body {
 
 .titleImg { 
       width: auto;  
-      max-height: 120px; 
+      max-height: 120px;
+      position: fixed;
+      z-index: 2;
+      overflow-x: hidden;
+      top: 0; 
+      left: 0;
       }
 
+.bodyImg {
+      width: auto;
+      max-height:500px;
+	}
+
 .footer {
-      position: fixed;
+      position: absolute;
       left: 0;
       bottom: 0;
       width: 100%;
