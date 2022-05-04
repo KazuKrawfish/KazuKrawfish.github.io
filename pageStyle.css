@@ -37,6 +37,7 @@ body {
   font: times;
   z-index: 1;
   width: 1000px;
+  padding-bottom: 200px;
 }
 .main a {
   color: rgb(0, 238, 255);
@@ -67,15 +68,19 @@ body {
 .bodyImg {
       width: auto;
       max-height:500px;
+      padding-top: 50px;
+      
 	}
 
 .footer {
-      position: absolute;
+      position: fixed;
       left: 0;
       bottom: 0;
       width: 100%;
       color: white;
+      z-index: 2;
       text-align: center;
+      background-color: rgba(0, 0, 0, 0.780);
 }
 
 .footer a {
